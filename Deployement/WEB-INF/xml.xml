@@ -28,7 +28,7 @@
   
   <!-- Mapping servelet -->
   <servlet>
-	<servlet-name>AdditionServlet</servlet-name>
+	<servlet-name>calculatorServlet</servlet-name>
 	<servlet-class>za.ac.tut.controller.calculatorServlet</servlet-class>
   </servlet>
   

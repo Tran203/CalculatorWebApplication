@@ -6,7 +6,7 @@
 <body>
 	<h1>Values</h1>
 	<p>Please Enter values to add</p>
-	<form action="CalculatorServlet.do" method="POST">
+	<form action="calculatorServlet.do" method="POST">
 		<table>
 			<tr>
 				<td>First Number:</td>
