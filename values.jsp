@@ -17,7 +17,7 @@
 				<td><input type="text" name="num2"></td>
 			</tr>
 			<tr>
-				<input type="submit" value="add">
+				<td><input type="submit" value="add"></td>
 			</tr>
 		</table>
 	</form>
