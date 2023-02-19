@@ -22,9 +22,20 @@
   version="3.1"
   metadata-complete="true">
 
-    <!-- Define example filters -->
-    <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
-    </welcome-file-list>
-
+  <welcome-file-list>
+	<welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Mapping servelet -->
+  <servlet>
+	<servlet-name>AdditionServlet</servlet-name>
+	<servlet-class>za.ac.tut.controller.calculatorServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>AdditionServlet</servlet-name>
+	<url-pattern>/calculatorServlet.do</url-pattern>
+  </servlet-mapping>
+  
+ 
 </web-app>
