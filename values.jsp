@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calculator - Values</title>
+	<title>Calculator - Values Page</title>
 </head>
 <body>
 	<h1>Values</h1>
