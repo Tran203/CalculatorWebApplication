@@ -6,9 +6,9 @@
 <body>
 	<h1>Calculator Output Result</h1>
 	<%
-		Integer num1 = Integer.parseInt(request.getParameter("num1"));
-		Integer num2 = Integer.parseInt(request.getParameter("num2"));
-		Integer sum = num1 + num2;
+		Integer num1 = (Integer)request.getAttribute("num1");
+		Integer num2 = (Integer)request.getAttribute("num2");
+		Integer sum = (Integer)request.getAttribute("sum");
 	%>
 	
 	<p>The sum of <%=num1%> and <%=num2%> is <%=sum%>.</p>
