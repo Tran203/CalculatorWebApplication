@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.ServletException;
 import javax.servlet.RequestDispatcher;
 
-public class calculatorServlet extends HttpServlet{
+public class CalculatorServlet extends HttpServlet{
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException,ServletException{
 		//get values entered by the user
 		Integer num1 = Integer.parseInt(request.getParameter("num1"));
