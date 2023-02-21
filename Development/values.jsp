@@ -17,6 +17,14 @@
 				<td><input type="text" name="num2"></td>
 			</tr>
 			<tr>
+				<select name = "calMethod">
+					<option>ADD</option>
+					<option>SUBTRACT</option>
+					<option>MULTIPLY</option>
+					<option>DIVIDE</option>
+				</select>				
+			</tr>
+			<tr>
 				<td><input type="submit" value="add"></td>
 			</tr>
 		</table>
