@@ -8,9 +8,9 @@
 	<%
 		Integer num1 = (Integer)request.getAttribute("num1");
 		Integer num2 = (Integer)request.getAttribute("num2");
-		Integer sum = (Integer)request.getAttribute("sum");
+		Integer result = (Integer)request.getAttribute("result");
 	%>
 	
-	<p>The sum of <%=num1%> and <%=num2%> is <%=sum%>.</p>
+	<p>The sum of <%=num1%> and <%=num2%> is <%=result%>.</p>
 </body>
 </html>
