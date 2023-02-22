@@ -24,7 +24,7 @@ To get started with this web application, you will need to have the following so
 - Apache Tomcat (or any other Java servlet container)<br><br>
 Once you have installed these dependencies, you can follow these steps to run the application:
 
-1. Clone the repository to your local machine
+1. Clone the <a href="https://github.com/Tran203/CalculatorWebApplication/tree/main/Deployment">Deployment<a> folder to your local machine
 2. Open the project in your Java development environment (such as Eclipse or IntelliJ IDEA)
 3. Configure the project to use Apache Tomcat as the servlet container
 4. Start the Tomcat server
