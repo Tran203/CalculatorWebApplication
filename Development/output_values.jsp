@@ -14,6 +14,8 @@
 	%>
 	
 	<p>The sum of <%=num1%> and <%=num2%> is <%=result%>.</p>
+	<br>
+	<p>click <a href="values.jsp">here</a> to calculate again.</p>
 	</div>
 </body>
 </html>
