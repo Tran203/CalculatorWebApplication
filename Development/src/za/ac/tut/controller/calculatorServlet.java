@@ -13,24 +13,26 @@ public class CalculatorServlet extends HttpServlet{
 		//get values entered by the user
 		Integer num1 = Integer.parseInt(request.getParameter("num1"));
 		Integer num2 = Integer.parseInt(request.getParameter("num2"));
+		String option = request.getParameter("calMethod");
 		//initialise the calculation
 		Calculation cal = new Calculation();
+		Integer result;
 		//cal the method to perform the calculations
 		switch(option){
 			case "ADD":
-				Integer result = cal.Add(num1,num2);
+				result = cal.Add(num1,num2);
 				break;
 			case "SUBTRACT":
-				Integer result = cal.Sub(num1,num2);
+				result = cal.Sub(num1,num2);
 				break;
 			case "MULTIPLY":
-				Integer result = cal.Mult(num1,num2);
+				result = cal.Mult(num1,num2);
 				break;
 			case "DIVIDE":
-				Integer result = cal.Div(num1,num2);
+				result = cal.Div(num1,num2);
 				break;
 			default:
-				Integer result = 0;
+				result = 0;
 		};
 		
 		//set Attributes *make it easy to use them again
