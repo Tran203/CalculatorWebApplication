@@ -48,7 +48,8 @@ public class CalculatorServlet extends HttpServlet {
             RequestDispatcher disp = request.getRequestDispatcher("output.jsp");
             disp.forward(request, response);
         } catch (ArithmeticOperatorException ex) {
-            Logger.getLogger(CalculatorServlet.class.getName()).log(Level.SEVERE, null, ex);
+            RequestDispatcher disp = request.getRequestDispatcher("arithmetic_operator_error_page.jsp");
+            disp.forward(request, response);
         }
     }
 }
