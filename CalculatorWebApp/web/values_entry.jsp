@@ -32,6 +32,7 @@
                                     <option>-</option>
                                     <option>*</option>
                                     <option>/<option>
+                                    <option>None<option>
                                  </select>
                             </td>
                 </tr>

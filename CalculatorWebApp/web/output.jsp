@@ -14,9 +14,9 @@
     <body>
         <h1>Outcome</h1>
         <%
-            Integer num1 = Integer.parseInt((String)request.getAttribute("num1"));
-            Integer num2 = Integer.parseInt((String)request.getParameter("num2"));
-            Character op = ((String)request.getAttribute("operator")).charAt(0);
+            Integer num1 = (Integer)request.getAttribute("num1");
+            Integer num2 = (Integer)request.getAttribute("num2");
+            Character op = (Character)request.getAttribute("op");
             String result = (String)request.getAttribute("result");
         %>
         <p>
