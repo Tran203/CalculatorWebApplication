@@ -12,11 +12,13 @@
         <title>File Not Found Page</title>
     </head>
     <body>
-        <h1>File Not Found</h1>
-        <p>
-            The requested file was not found
-            <br>
-             Please click <a href="index.html">here</a> to go back to the main page.
-        </p>
+		<div class="container">
+			<h1>File Not Found</h1>
+			<p>
+				The requested file was not found
+				<br>
+				 Please click <a href="index.html">here</a> to go back to the main page.
+			</p>
+		</div>
     </body>
 </html>

@@ -12,11 +12,13 @@
         <title>Arithmetic Operation Error Page</title>
     </head>
     <body>
-        <h1>Arithmetic Operation Error</h1>
-        <p>
-            The requested operator is invalid
-            <br>
-             Please click <a href="index.html">here</a> to go back to the main page.
-        </p>1>
+		<div class="container">
+			<h1>Arithmetic Operation Error</h1>
+			<p>
+				The requested operator is invalid
+				<br>
+				 Please click <a href="index.html">here</a> to go back to the main page.
+			</p>
+		</div>
     </body>
 </html>
